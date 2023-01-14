@@ -1,0 +1,15 @@
+name: CommandRegister
+version: '${project.version}'
+main: net.serveron.hane.commandregister.CommandRegister
+api-version: 1.16
+
+# コマンドの登録
+commands:
+  example:
+    usage: /example
+    description: <説明>
+# 権限
+permissions:
+  example:
+    description: <説明>
+    default: op
